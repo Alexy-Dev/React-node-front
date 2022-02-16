@@ -1,0 +1,66 @@
+.table {
+	margin-top: 16%;
+	margin-left: 130px;
+	margin-right: 130px;
+	width: 1180px;
+	padding: 0.25rem;
+	text-align: center;
+	font-weight: normal;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	/* table-layout: fixed; */
+}
+.toptable {
+	font-family: Montserrat;
+	/* width: 100%; */
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 19.5px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #fff;
+	background: #3A80BA;
+    vertical-align: center;
+	position: center;
+	display: flex;
+	flex-direction: row;
+	/* table-layout: fixed; */
+}
+.toptable th{
+    vertical-align: center;
+	width: 90%;
+	padding: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/* .bodytable{
+	font-family: Montserrat;
+	line-height: 19.5px;
+	letter-spacing: 0em;
+	text-align: center;
+    vertical-align: center;
+	display: flex;
+	flex-direction: column;
+} */
+.rowtable {
+	cursor: pointer;	
+	width: auto;
+	vertical-align: center;
+}
+.rowtable td{
+	width: 13%;
+	align-items: center;
+	justify-content: space-between;
+	vertical-align: center;
+	/* position: center; */
+	text-align: center;
+	display: flex-box;
+	flex-direction: column;
+	padding: 20px;
+	overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
